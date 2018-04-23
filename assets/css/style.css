@@ -6,22 +6,26 @@ body {
 .container {
 	margin: 0;
 	height: 95vh;
-	background: linear-gradient(
-         rgba(20,20,20, 0.5), 
-         rgba(20,20,20, 0.5)),
-         url('img/kitchen.png') center; 
-    background-size: cover; 
-    background-position: center center;
-    background-color: #ffe81c; /* backup background color */
+    background: rgba(0, 100, 100, 0.3);
+    width: 100%; }
+.container::after {
+    content: "";
+    background: url("img/kitchen.png") ; 
+    top: 0; bottom: 0; left: 0; right: 0;
+    opacity: 0.3;
+    position: fixed;
+    z-index: -1; 
+    content: "";
+    background-size: cover;
     background-repeat: no-repeat; }
-
 h1 {
 	padding: 50px 0;
     font-family: Lato, arial;
     font-size: 4em;
     color: #ffe81c;  }
 h2 { 
-    color: #eee;
+    color: #111;
+    text-shadow: 1px 1px 1px #eee;
     font-family: arial;
 	padding: 0 2em; }
 #info {
@@ -46,9 +50,9 @@ form input, form select {
     margin: 0;  }
 form input:focus, form select:focus {
     outline: 2px solid #111; }
-form p {
-	color: #eee;
-}
+form h4 {
+	color: #111;
+    text-shadow: 1px 1px 1px #eee; }
 footer {
     position: absolute;
     bottom: 0;
