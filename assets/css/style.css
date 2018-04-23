@@ -9,7 +9,7 @@ body {
 	background: linear-gradient(
          rgba(20,20,20, 0.5), 
          rgba(20,20,20, 0.5)),
-         url('images/kitchen.png');
+         url('img/kitchen.png') center; 
     background-size: cover; 
     background-position: center center;
     background-color: #ffe81c; /* backup background color */
