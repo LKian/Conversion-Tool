@@ -1,5 +1,5 @@
 var header =  $('h1');
-$("input[type='submit']").on('click',function() {
+$("#unitOutput").on('change',function() {
 	event.preventDefault();
 	var qtyInput = $('#qtyInput').val();
 	var unitInput = $('#unitInput').val();
@@ -68,28 +68,3 @@ $("input[type='submit']").on('click',function() {
 					$('#qtyOutput').val(qtyInput/256); }
 			}
 		}) ;
-
-		
-
-
-		
-
-
-// function convertToTeaspoon() {
-// 	console.log(qtyInput).val();
-// 	console.log(unitInput).val();
-// 	console.log(qtyOutput).val();
-// 	console.log(unitOutput).val();
-// }
-
-// canvas.on('mousedown mouseover', 'td', function(e) {
-// 	if (e.buttons===1) {
-// 	$(this).css('backgroundColor', $('#colorPicker').val());
-// }
-// })
-
-// get value of input dropdown.
-// convert to teaspoon
-// take value of output dropdown
-// do multiplication from teaspoon #
-// display the result in #inputUnitOut

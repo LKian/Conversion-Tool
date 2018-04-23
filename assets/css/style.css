@@ -22,7 +22,8 @@ h1 {
 	padding: 50px 0;
     font-family: Lato, arial;
     font-size: 4em;
-    color: #ffe81c;  }
+    color: #ffe81c;
+    text-shadow: 1px 1px 0 #222; }
 h2 { 
     color: #111;
     text-shadow: 1px 1px 1px #eee;
