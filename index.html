@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversion Tool</title>
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/style.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script type="text/javascript" src="assets/js/lib/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <h1>Lab: Conversion Tool</h1>
+    <h2>Fill in your conversion units</h2>
+    <div id="info">
+	    <form id="input">
+	        <input type="number" id="qtyInput" name="quantity" min="1" max="100" value="1">
+	        <select id="unitInput">
+				<option value="None">-- Select --</option>
+				<option value="Teaspoon">Teaspoon</option>
+				<option value="Tablespoon">Tablespoon</option>
+				<option value="Cup">Cup</option>
+				<option value="Gallon">Gallon</option>
+			</select>
+	    </form>
+		<form id="output">
+	        <input type="number" id="qtyOutput" name="quantity" min="1" max="100" value="1">
+	        <select id="unitOutput">
+				<option value="None">-- Select --</option>
+				<option value="Teaspoon">Teaspoon</option>
+				<option value="Tablespoon">Tablespoon</option>
+				<option value="Cup">Cup</option>
+				<option value="Gallon">Gallon</option>
+			</select>
+	    </form>
+
+	</div>
+	<input type="submit">
+	
+ 
+    <table id="pixelCanvas"></table>
+<footer>
+  <div class="signature">
+    <p> <a target=”_blank” href="http://leahkahwadjian.com/">LK Labs</a> &copy; 2018 </p>
+  </div>
+</footer> 
+    <script type="text/javascript" src="assets/js/index.js"></script>
+</body>
+</html>
