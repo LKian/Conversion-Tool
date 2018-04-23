@@ -9,7 +9,7 @@ body {
 	background: linear-gradient(
          rgba(20,20,20, 0.5), 
          rgba(20,20,20, 0.5)),
-         url('https://images.unsplash.com/photo-1516824467205-afa656d31a79?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=120a02f8325fbcbd7150eca8660658ef&auto=format&fit=crop&w=1050&q=80');
+         url('images/kitchen.png');
     background-size: cover; 
     background-position: center center;
     background-color: #ffe81c; /* backup background color */
@@ -44,9 +44,6 @@ form input, form select {
     font-size: 1.3em;
     outline: none;  
     margin: 0;  }
-
-form  { 
-	flex-wrap: wrap; }
 form input:focus, form select:focus {
     outline: 2px solid #111; }
 form p {
@@ -76,6 +73,8 @@ footer a {
 @media only screen and (min-width: 768px) {
 	h2 {
 		padding: 0 3em; }
+	form {
+		width: 40%; }
 	#info {
 	    display: flex;
 	    padding: 2em; 
